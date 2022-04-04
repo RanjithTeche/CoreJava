@@ -15,8 +15,10 @@ public class EnumerationsIteratorDemo {
             System.out.println("Expected ConcurrentModificationException :" + e.getMessage());
             e.printStackTrace();
         }
+        
         System.out.println("*********EnumerationsCopyOnWriteArrayListDemo ******");
         EnumerationsCopyOnWriteArrayListDemo();
+        
         System.out.println("*********IteratorDemo ******");
         try {
             IteratorDemo();
@@ -24,6 +26,8 @@ public class EnumerationsIteratorDemo {
             System.out.println("Expected ConcurrentModificationException :" + e.getMessage());
             e.printStackTrace();
         }
+        
+        
         System.out.println("******** IteratorCopyOnWriteArrayDemo *************");
         IteratorCopyOnWriteArrayDemo();
     }

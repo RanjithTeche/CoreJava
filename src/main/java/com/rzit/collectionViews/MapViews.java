@@ -11,9 +11,9 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class MapViews {
     public static void main(String[] args) {
-        //keySetView();
-        //valuesCollectionView();
-        //setMappingsView();
+        keySetView();
+       // valuesCollectionView();
+       // setMappingsView();
 
     }
 

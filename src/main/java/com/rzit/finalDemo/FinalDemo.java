@@ -13,7 +13,9 @@ public class FinalDemo {
         list.add(10);
         list.add(20);
         list.add(30);
+        //list = new ArrayList<>();
         System.out.println(list);
+        //a = a +1;
         System.out.println(a+1);
     }
 }

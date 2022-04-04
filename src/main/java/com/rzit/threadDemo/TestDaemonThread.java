@@ -39,7 +39,7 @@ class UserThread implements Runnable{
 
     @Override
     public void run() {
-        while(count < 10){
+        while(count < 3){
             processSomething();
             count ++;
         }

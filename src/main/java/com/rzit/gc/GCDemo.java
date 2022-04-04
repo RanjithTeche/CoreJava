@@ -6,12 +6,14 @@ import java.io.IOException;
  * Created by Ranjith on 8/2/2017.
  */
 public class GCDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         MyClass my1 = new MyClass();
         MyClass my2 = new MyClass();
         my1=null;
+        // MyClass my3 = my2;
         my2=null;
         System.gc();
+       Thread.sleep(1000);
     }
 }
 class MyClass {

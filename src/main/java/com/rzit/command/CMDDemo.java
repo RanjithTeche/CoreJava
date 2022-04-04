@@ -11,8 +11,8 @@ public class CMDDemo {
         try {
             Runtime.getRuntime().exec("notepad");//will open a new notepad
             Runtime.getRuntime().exec("calc");//will open a new calculator
-            Runtime.getRuntime().exec("shutdown -s -t 0");//will shutdown the windows system  after 0 sec
-            Runtime.getRuntime().exec("shutdown -r -t 0");//will restart the windows system  after 0 sec
+           // Runtime.getRuntime().exec("shutdown -s -t 0");//will shutdown the windows system  after 0 sec
+            //Runtime.getRuntime().exec("shutdown -r -t 0");//will restart the windows system  after 0 sec
         } catch (IOException e) {
             e.printStackTrace();
         }

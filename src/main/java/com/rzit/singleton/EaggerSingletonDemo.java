@@ -27,10 +27,10 @@ public class EaggerSingletonDemo {
 
         try {
             InnerClassSingleton inner3 = InnerClassSingleton.getInstance();
-            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(new File("/clone.txt")));
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(new File("clone.txt")));
             objectOutputStream.writeObject(inner3);
 
-            ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(new File("/clone.txt")));
+            ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(new File("clone.txt")));
             try {
                 InnerClassSingleton obj =  (InnerClassSingleton)objectInputStream.readObject();
                 System.out.println(obj ==  inner3);

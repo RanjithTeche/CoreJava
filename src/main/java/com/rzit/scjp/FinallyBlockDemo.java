@@ -14,8 +14,10 @@ public class FinallyBlockDemo {
             a.split("-");
             return "try";
         }catch (Exception e){
+        	System.out.println("In Exception block ");
             return "exception";
         }finally {
+        	System.out.println("In finally  block ");
             return "fainally";
 
         }

@@ -18,5 +18,8 @@ public class Test {
         System.out.println(integer3 == integer5);
         System.out.println(integer1.hashCode());
         System.out.println(integer2.hashCode());
+        
+       System.out.println(new Object().toString());
+        
     }
 }

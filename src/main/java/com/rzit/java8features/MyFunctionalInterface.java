@@ -7,7 +7,7 @@ package com.rzit.java8features;
 public interface MyFunctionalInterface {
     public void firstWork();
 
-    /*Function intserface must have only one abstract method , (optional any number of default methods ) */
+    /*Function interface must have only one abstract method , (optional any number of default methods ) */
     //public void secondWork();
     public default void myDefaultMethod() {
         System.out.println("My Default");
